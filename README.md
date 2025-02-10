@@ -10,7 +10,7 @@
 
 - **EmployeeService:**  
   - Handles most of the heavy lifting, including remote API calls using `RestTemplate`.
-  - Implements rate-limiting workarounds with Spring Retry to manage transient failures.
+  - Implements rate-limiting workarounds with Spring Retry.
 
 - **Custom Data Models:**  
   These models help structure the data for communication with the server:
