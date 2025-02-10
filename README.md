@@ -9,7 +9,8 @@
   - Delegates business logic to the service layer.
 
 - **EmployeeService:**  
-  - Handles most of the heavy lifting, including remote API calls using `RestTemplate`.
+  - Handles most of the heavy lifting and logic.
+  - Implements the functionality for all requested methods.
   - Implements rate-limiting workarounds with Spring Retry.
 
 - **Custom Data Models:**  
